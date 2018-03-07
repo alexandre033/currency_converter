@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-family: 'Source Sans Pro', sans-serif!important;
+}
+svg{
+  font-size: 32px;
+  margin: 6px 10px 0px 20px;
+}
+h1{
+  font-family: 'Roboto Condensed', sans-serif!important;
+  font-size:30px!important;
+}
+header{
+  display:flex!important;
+  color:white;
+  background: #AD1457;
+  box-shadow: 1px 1px 10px #adacac;
+  min-height: 50px;
+  margin-bottom: 20px;
+}
+header h1{
+  margin:4px!important
+}
+#historical{
+  width: 80%;
+  margin: 10px auto;
+  background: #f9f9f9;
+  border: 1px solid #ececec;
+}
+#historical h1{
+  border-bottom: 1px solid #d0d0d0;
+    width: 60%;
+    margin: 15px auto;
+    padding-bottom: 10px;
+}
+#currencies{
+  background: #f9f9f9;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 30px auto;
+  border: 1px solid #ececec;
+}
+#currencies span{
+  font-size: 15px;
+    font-weight: bold;
+}
+.form-inline{
+  margin: 10px;
+}
+.react-datepicker-wrapper input{
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  -o-transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+#historical-data{
+  width: 80%;
+  margin: auto;
+}
+#historical-data .form-inline{
+  justify-content: space-around;
+}
+#allSymbols{
+  width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+}
+.showData{
+  display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 10px;
+    background: #f9f9f9;
+    transition: border ease 0.5s
+}
+.showData:hover{
+  border-bottom: 1px solid #AD1457;
+}
+#footer{
+  background: #AD1457;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height:60px
+}
+#footer p {
+  margin:0
+}
