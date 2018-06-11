@@ -1,4 +1,4 @@
 This project is made by AB with the help of Fixer.io
 Made with React.
 
-You can find the project to https://alexandre033.github.io/currency_converter/
+The project is no longer available in your browser due to fixer.io policy change
